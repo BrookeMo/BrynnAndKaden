@@ -135,12 +135,6 @@ input {
     margin: auto;
     display: block;
 }
-.content {
-    position: absolute; 
-    top: 48%; 
-    transform: translateY(-50%); 
-    width: 100%;
-}
 @media only screen and (max-width: 1305px) {
     .namediv {
         width: 100%;
@@ -196,6 +190,10 @@ input {
     .titleleaves {
         height: 140px;
     }
+    #bannertext {
+        font-size: 30px;
+        padding-top: 17px;
+    }
 }
 @media only screen and (max-width: 425px) {
     #bannertext {
@@ -216,6 +214,9 @@ input {
     }
     .pagecontent {
         margin-top: 5px;
+    }
+    .content {
+        margin-top: 30px;
     }
 }
 @media only screen and (max-width: 375px) {
