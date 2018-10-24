@@ -72,12 +72,14 @@ body {
     margin-bottom: 0;
     padding-top: 5px;
 }
+#registrytext {
+    text-align: center;
+}
 #registrylink {
     font-family: 'Caviar Dreams';
     color: white;
     text-align: center;
     font-weight: normal;
-    display: block;
 }
 .pagecontent {
     position: relative;
